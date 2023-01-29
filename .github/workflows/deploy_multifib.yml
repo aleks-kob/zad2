@@ -16,13 +16,13 @@ jobs:
             image: aleksandrakob/lab:fib-client
           - dockerfile: ./Dockerfile
             context: server
-            image: paleksandrakob/lab:fib-server
+            image: aleksandrakob/lab:fib-server
           - dockerfile: ./Dockerfile
             context: worker
-            image: paleksandrakob/lab:fib-worker
+            image: aleksandrakob/lab:fib-worker
           - dockerfile: ./Dockerfile
             context: nginx
-            image: paleksandrakob/lab:fib-router  
+            image: aleksandrakob/lab:fib-router  
     
     steps:
 
