@@ -63,8 +63,8 @@ jobs:
       with:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        application_name: pgMultifib
-        environment_name: Pgmultifib-env
-        version_label: Zadanie2.v3
+        application_name: AKMultifib
+        environment_name: AKmultifib-env
+        version_label: Zad2
         region: us-east-1
         deployment_package: deploy.zip
